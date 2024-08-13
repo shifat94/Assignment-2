@@ -106,5 +106,81 @@
         background: none;
     }
 
+    .position{
+        position: relative;
+    }
     
+ 
+
+   .resource-part-1{
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute ;
+    top: 450px;
+    left: -110px;
+    
+   }
+
+   .dot{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 10px;
+   }
+
+   .main-content{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+    
+   }
+
+   .content-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+   }
+ 
+   .resource-part-2{
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute ;
+    top: 150px;
+    left: 250px;
+    
+   }
+
+   @media screen {
+    
+   }
     /* Header Part End */
+ 
+
+    /* 2nd-part Start */
+
+    
+
+    
+
+
+
+    
+
+
+
+   
