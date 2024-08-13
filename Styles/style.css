@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;}
+
+    /* Header Part Start  */
+    .Header{
+        width: 100%;
+        height: 750px;
+        /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+        background-color: black;
+    }
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+       margin-right: 200px;
+       
+        
+    }
+
+    .Tagline{
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 800;
+        font-style: italic;
+       
+    }
+
+    .home{
+        width: 70px;
+        height: 20px;
+        background-color: rgb(230, 83, 60);
+        padding: 8px 20px 8px 20px;
+        text-align: center;
+        border-radius: 46px;
+        justify-content: center;
+
+
+    }
+
+    
+    .menu{
+        width: 400px;
+        height: 46px;
+        list-style: none;
+        display: flex;
+        gap: 25px; 
+        border: solid 1px rgba(255, 255, 255, 0.1);
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+       padding-right: 30px;
+       border-radius: 49px;
+       font-size: 14px ;
+       font-weight: 400;
+       color: rgb(255, 255, 255);
+    
+    }
+
+    .header-part{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-part-content{
+        width: 600px;
+        height: 550px; ;
+         /* border: solid 1px red; */
+         margin-right: 400px;
+    } 
+    .Heading{
+        color: rgb(255, 255, 255);
+        font-size: 78px;
+        font-weight: 900;
+    }
+
+    .heading-description{
+        color: rgba(255, 255, 255, 0.5);
+       font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .btn-1{
+        width: 224px;
+        height: 54px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        border: none;
+    }
+    .btn-2{
+        width: 224px;
+        height: 54px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 42px;
+        color: rgb(255, 255, 255);
+        margin-left: 14px;
+        background: none;
+    }
+
+    
+    /* Header Part End */
