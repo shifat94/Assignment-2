@@ -11,7 +11,7 @@
     .Header{
         width: 100%;
         height: 700px;
-        background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+        background: linear-gradient(-100.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
         
         
     }
@@ -233,12 +233,19 @@
         font-size: 13px;
         font-weight: 400;
         color: rgba(255, 255, 255, 0.5);
+
+
     }
+
+         /* 2nd-part End */
+                 
+             /* Third part Start  */
 
     .Run-div{
         width: 1500px;
         height: 450px;
-        margin-top: -200px;
+        margin: 0 auto;
+        margin-top: 100px;
         border-radius: 18px;
         background: rgb(34, 34, 34);
         display: flex;
@@ -277,9 +284,288 @@
         border-radius: 18px;
     }
 
+          /* Third part End */
 
 
-    /* 2nd-part End */
+          /* Fourth Part Start  */
+
+           
+
+    .third-content{
+       text-align: center;
+       
+    }
+    .third-heading{
+        font-size: 48px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+    .third-description{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .BMI-part{
+
+        width: 100%;
+        height: 400px;
+        background-color: rgb(34, 34, 34);
+        margin-left: 1px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .bmi-table-part{
+        
+    }
+
+    .bmi-head{
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 40px;
+        color: rgb(255, 255, 255);
+        
+    }
+    
+        
+
+    
+
+    .td{
+        /* border: solid 1px red; */
+        padding: 10px 15px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .table{
+        border-collapse: collapse;
+
+    }
+
+    .thead{
+        font-size: 17px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+
+    }
+    .tbody{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+      .Form{
+        margin-left: 300px;
+      }
+
+    .from-content{
+        width: 577px;
+        height: 96px;
+        margin-bottom: 27px;
+        
+    }
+
+     .form-head{
+        font-size: 26px;
+        font-weight: 900;
+        color: rgb(255, 255, 255)
+     }
+    
+     .form-description{
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+
+     }
+
+     .table-content{
+        width: 280px;
+        height: 40px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px 5px 6px 5px;
+        margin: 5px 5px 5px 5px;
+        
+     }
+
+    .option{
+        color:rgba(255, 255, 255, 0.6) ;
+        width: 515px;
+    }
+    .option-2{
+        color:rgba(255, 255, 255, 0.6) ;
+    }
+
+    /* Fourth Part End  */
+
+    /* Fifth Part Start */
+      
+    .Gallary{
+
+        width: 970px;
+        height: 800px;
+        margin: 0 auto;
+
+    }
+        
+
+   
+     
+    .Gallary-Content{
+        width: 600px;
+        height: 120px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .Gallary-header{
+        font-size: 45px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .Gallary-description{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .grid-part{
+        width: 955px;
+        height: 0%;
+        /* border: solid red; */
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+
+
+    .grid-img{
+        position: relative;
+
+    }
+    
+
+    
+    .imges{
+        width: 310px;
+        height: 260px;
+        border-radius: 18px;
+        padding: 5px;
+       
+     }
+
+    .img-content{
+        position: absolute;
+        margin-top: -90px;
+        margin-left: 27px;
+    }
+
+    .img-header{
+        font-size: 20px;
+        font-weight: 900;
+        color: whitesmoke;
+
+    }
+
+    .img-subtitle{
+
+        font-size: 15px;
+        font-weight: 400;
+        color: whitesmoke;
+
+    }
+
+
+
+    /* Fifth Part End  */
+
+    /* Footer part Start  */
+
+    .footer{
+        background: rgba(255, 255, 255, 0.1);
+        }
+
+    .footer-div{
+        width: 1000px;
+        height: 450px;
+         margin: 0 auto;
+        display: flex;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);;
+
+    }
+
+    .footer-content{
+        width: 400px;
+        margin-top: 100px;
+
+    }
+
+    .footer-head{
+        font-size: 60px;
+        font-weight: 800;
+        color: rgb(230, 83, 60);
+        font-style: italic;
+
+    }
+
+    .footer-description{
+
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .footer-navbar{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 70px;
+        
+    }
+
+    .footer-nav-titles{
+        margin-right: 70px;
+    }
+
+    .nav-header{
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .nav-title{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+
+    .copyright{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    /* Footer part End  */
+
+    
 
 
     
