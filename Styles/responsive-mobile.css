@@ -11,7 +11,7 @@
 
      .Navbar{
         display: flex;
-        gap: 200px;
+        gap: 250px;
        
         margin-left: 10px;
         align-items: center;
@@ -37,7 +37,7 @@
         .header-part-content{
             width: 100%;
              margin-right: 400px;
-             margin-bottom: 150px;
+             margin-bottom: -70px;
              
         } 
 
@@ -83,6 +83,7 @@
 
         .header-image{
             margin-left: 30px;
+            
         }
 
         .resource-part-1{
@@ -147,42 +148,116 @@
 
    /* 2nd part Start */
 
-   .secound-part-div{
-    width: 500px;
-    height: 700px;
-    align-items: center;
-    text-align: center;
+
+   .secound-part{
+    width: 100%;
+    /* height: 750px; */
+    background-color: black;
+    margin-top: 200px;
+}
+     
+.secound-part-div{
+    width: 100%;
+    /* height: 700px;
+    /* align-items: center;
+    text-align: center; */ 
+    
+  
+    
+}
+
    
-    
-}
-        
-    
-     
    .Main-content{
-    font-size: 30px;
+    width: 100%;
+    font-size: 40px;
     font-weight: 900;
-    color: rgb(255, 255, 255);}
+    color: rgb(255, 255, 255);
+    
+}
 
-   .img-div{
+.content-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.img-div{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+}
+
+
+.img-heading{
+    font-size: 25px;
+    font-weight: 600;
+   color:rgb(255, 255, 255) ;
+   
+}
+
+.img-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
 
 }
 
+
+
+
+/* 2nd part End */
+
+
+/* Third Part Start */
+
+.Run-div{
+    width: 100%;
+    height: 800px;
+    margin-top: 1000px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
     
+
+}
+
+.content-div{
+    width: 100%;
+    height: auto;
+}
+
+main-heading{
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 60px;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+ }
+
+ .main-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 60px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+   
+  .button{
+    width: 200px;
+    margin-left: 120px;
+   }
+
+ .img-run{
+    width: 410px;
+    height: 300px;
+    margin-right: 5px;
     
+    margin-top: 2px;
+    border-radius: 18px;
+   
+}
 
+/* Third Part End */
 
-
-
-
-
-
-
-         
-     
-
-
-
-
-
+}
