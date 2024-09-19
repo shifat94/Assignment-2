@@ -11,7 +11,8 @@
 
      .Navbar{
         display: flex;
-        gap: 200px;
+        gap: 400px;
+       
         margin-left: 10px;
         align-items: center;
        
@@ -34,33 +35,37 @@
         }
 
         .header-part-content{
-            width: 330px;
+            width: 100%;
            
              border: solid 1px red;
              margin-right: 400px;
+             margin-bottom: 30px;
+             
         } 
 
         .Heading{
             color: rgb(255, 255, 255);
-            font-size: 50px;
+            font-size: 70px;
             font-weight: 900;
+            margin-left: 30px;
         }
 
         .heading-description{
             color: rgba(255, 255, 255, 0.5);
-           font-size: 18px;
+           font-size: 25px;
             font-weight: 400;
             line-height: 24px;
         }
 
         .btn-1{
-            width: 130px;
+            width: 200px;
             height: 45px;
+            margin-left: 20px;
             border-radius: 42px;
             background: rgb(230, 83, 60);
             color: rgb(255, 255, 255);
             font-family: Inter;
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 600;
             line-height: 22px;
             border: none;
@@ -68,22 +73,23 @@
 
 
         .btn-2{
-            width: 120px;
+            width: 200px;
             height: 45px;
             border: 2px solid rgb(255, 255, 255);
             border-radius: 42px;
             color: rgb(255, 255, 255);
             margin-left: 14px;
             background: none;
+            font-size: 18px;
         }
 
         .header-image{
-            width: 250px;
+            margin-left: 100px;
         }
 
         .resource-part-1{
-            width: 120px;
-            height: 55px;
+            width: 160px;
+            height: 75px;
             display: flex;
             justify-content: center;
             text-align: center;
@@ -92,14 +98,14 @@
             backdrop-filter: blur(20px);
             background: rgba(48, 48, 48, 0.54);
             position: absolute ;
-            top: 300px;
-            margin-left: 190px;
+            top: 260px;
+            margin-left: 210px;
             
            }
 
            .dot{
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             background-color: rgb(230, 83, 60);
             display: inline-block;
             border-radius: 50%;
@@ -108,29 +114,29 @@
            }
         
            .main-content{
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 900;
             color: rgb(250, 250, 249);
             
            }
         
            .content-description{
-            font-size: 8px;
+            font-size: 12px;
             font-weight: 400;
             color: rgba(239, 237, 232, 0.65);
            }
 
            .resource-part-2{
-            width: 110px;
-            height: 55px;
+            width: 160px;
+            height: 75px;
             text-align: center;
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 12px;
             backdrop-filter: blur(20px);
             background: rgba(48, 48, 48, 0.54);
             position: absolute ;
-            top: 150px;
-            left: 200px;
+            top: 70px;
+            left: 290px;
             
            }
 
