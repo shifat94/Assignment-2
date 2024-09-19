@@ -154,7 +154,7 @@
    }
 
    .content-description{
-    font-size: 12px;
+    font-size: 50px;
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
    }
@@ -421,6 +421,7 @@
         height: 120px;
         margin: 0 auto;
         text-align: center;
+        
 
     }
 
@@ -445,7 +446,15 @@
         margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+         
         
+    }
+
+    #image-background{
+        background: rgb(34, 34, 34);
+        border-radius: 10px;
+        width: 100%;
+    
     }
 
 
