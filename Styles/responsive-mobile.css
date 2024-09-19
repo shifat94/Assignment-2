@@ -11,7 +11,7 @@
 
      .Navbar{
         display: flex;
-        gap: 400px;
+        gap: 200px;
        
         margin-left: 10px;
         align-items: center;
@@ -36,36 +36,34 @@
 
         .header-part-content{
             width: 100%;
-           
-             border: solid 1px red;
              margin-right: 400px;
-             margin-bottom: 30px;
+             margin-bottom: 150px;
              
         } 
 
         .Heading{
             color: rgb(255, 255, 255);
-            font-size: 70px;
+            font-size: 50px;
             font-weight: 900;
             margin-left: 30px;
         }
 
         .heading-description{
             color: rgba(255, 255, 255, 0.5);
-           font-size: 25px;
+           font-size: 16px;
             font-weight: 400;
             line-height: 24px;
         }
 
         .btn-1{
-            width: 200px;
+            width: 150px;
             height: 45px;
             margin-left: 20px;
             border-radius: 42px;
             background: rgb(230, 83, 60);
             color: rgb(255, 255, 255);
             font-family: Inter;
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 600;
             line-height: 22px;
             border: none;
@@ -84,7 +82,7 @@
         }
 
         .header-image{
-            margin-left: 100px;
+            margin-left: 30px;
         }
 
         .resource-part-1{
@@ -99,7 +97,7 @@
             background: rgba(48, 48, 48, 0.54);
             position: absolute ;
             top: 260px;
-            margin-left: 210px;
+            margin-left: 160px;
             
            }
 
@@ -135,8 +133,8 @@
             backdrop-filter: blur(20px);
             background: rgba(48, 48, 48, 0.54);
             position: absolute ;
-            top: 70px;
-            left: 290px;
+            top: 60px;
+            left: 220px;
             
            }
 
